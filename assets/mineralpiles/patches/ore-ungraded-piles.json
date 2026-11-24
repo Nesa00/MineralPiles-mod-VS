@@ -1,0 +1,394 @@
+[
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "move",
+    "fromPath": "/behaviorsByType/*",
+    "path": "/temp_mineralpiles_wildcard"
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-quartz",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/quartz-pile",
+          "stackingTextures": {
+            "quartz": "game:item/resource/ungraded/quartz"
+          },
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-olivine",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/olivine-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-cinnabar",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/cinnabar-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-sylvite",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/sylvite-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-fluorite",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/fluorite-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-sulfur",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/sulfur-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-phosphorite",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/phosphorite-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-corundum",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/corundum-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-kernite",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/kernite-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-graphite",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/graphite-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-lapislazuli",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/lapislazuli-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-borax",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/borax-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 8.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1875,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "add",
+    "path": "/behaviorsByType/*-alum",
+    "value": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Stacking",
+          "ctrlKey": false,
+          "stackingModel": "mineralpiles:item/alum-pile",
+          "upSolid": false,
+          "modelItemsToStackSizeRatio": 7.0,
+          "stackingCapacity": 64,
+          "transferQuantity": 1,
+          "bulkTransferQuantity": 16,
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.25,
+            "z2": 1
+          },
+          "cbScaleYByLayer": 0.0625
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/resource/ore-ungraded.json",
+    "op": "move",
+    "fromPath": "/temp_mineralpiles_wildcard",
+    "path": "/behaviorsByType/*"
+  }
+]

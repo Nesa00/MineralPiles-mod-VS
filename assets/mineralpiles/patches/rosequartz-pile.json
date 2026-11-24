@@ -1,0 +1,29 @@
+[
+  {
+    "file": "game:itemtypes/resource/quartz/rosequartz.json",
+    "op": "replace",
+    "path": "/behaviors/0/properties",
+    "value": {
+      "layout": "Stacking",
+      "ctrlKey": false,
+      "stackingModel": "mineralpiles:item/quartz-pile",
+      "stackingTextures": {
+        "quartz": "game:item/resource/ungraded/rosyquartz"
+      },
+      "upSolid": false,
+      "modelItemsToStackSizeRatio": 8.0,
+      "stackingCapacity": 64,
+      "transferQuantity": 1,
+      "bulkTransferQuantity": 16,
+      "collisionBox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0,
+        "x2": 1,
+        "y2": 0.1875,
+        "z2": 1
+      },
+      "cbScaleYByLayer": 0.0625
+    }
+  }
+]
