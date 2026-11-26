@@ -2,6 +2,14 @@
 setlocal
 cd /d "%~dp0"
 
-if exist "MineralPiles-1.0.0.zip" del "MineralPiles-1.0.0.zip"
-powershell -NoProfile -Command "Compress-Archive -Path 'modinfo.json','modicon.png','assets' -DestinationPath 'MineralPiles-1.0.0.zip' -Force"
-copy /Y "MineralPiles-1.0.0.zip" "%AppData%\VintagestoryData\Mods\"
+for /f "usebackq delims=" %%A in (`powershell -NoProfile -Command "(Get-Content modinfo.json -Raw | ConvertFrom-Json).version"`) do set "VERSION=%%A"
+for /f "usebackq delims=" %%A in (`powershell -NoProfile -Command "(Get-Content modinfo.json -Raw | ConvertFrom-Json).name"`) do set "NAME=%%A"
+
+set "NAME=%NAME: =-%"
+set "ZIPNAME=%NAME%-%VERSION%.zip"
+
+if exist "%ZIPNAME%" del "%ZIPNAME%"
+7z a -tzip %ZIPNAME% modinfo.json modicon.png assets
+
+del /Q "%AppData%\VintagestoryData\Mods\%ZIPNAME%" 2>nul
+copy /Y "%ZIPNAME%" "%AppData%\VintagestoryData\Mods\"

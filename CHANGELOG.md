@@ -9,3 +9,8 @@ All notable changes to **Mineral Piles** will be documented in this file.
 - Ground-storage stacking support with a **64-item** pile capacity arranged in 4 layers of 4 rows by 4 columns, with each item randomly rotated using a seed-based Python generator (and automatic layer scaling for taller chunks like Alum).
 - Uses standard vanilla controls for adding to and taking from piles (1 item at a time, or bulk stacks with Sneak).
 - Support for 17 ungraded minerals and crystals: Clear Quartz, Normal Quartz, Rose Quartz, Smoky Quartz, Amethyst, Alum, Borax, Cinnabar, Corundum, Fluorite, Graphite, Kernite, Olivine, Phosphorite, Rough Lapis Lazuli, Sulfur, and Sylvite.
+
+## [1.0.1] - 2026-11-26
+
+### Fixed
+- Switched `.zip` packaging from PowerShell to 7-Zip (`7z`) for Linux compatibility.
